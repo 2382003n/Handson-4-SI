@@ -1,0 +1,15 @@
+import React, { useState } from 'react'
+
+const UsingStates = () => {
+    const[count, setCount] = useState(0);
+    console.log(count);
+    return (
+        <div>
+            <p>Counter value: {count}</p>
+            <button onClick={() => setCount(count +_1)}>Increase</button>
+        </div>
+    )
+}
+
+
+export default UsingStates
