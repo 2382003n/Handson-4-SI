@@ -10,7 +10,7 @@ const ChildComponent = () => {
     return <p>Child component is mounted</p>
 }
 
-const UnmountDemo = ()_=> {
+const UnmountDemo = () => {
     const [show, setShow] = useState(true);
     return (
         <div>
